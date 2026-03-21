@@ -1,0 +1,37 @@
+# 课程分类
+
+以下是按分类组织的课程列表：
+
+## Other Materials (30)
+
+- **[Advanced Financial Mathematics](../courses/Advanced-Financial-Mathematics.md)** (13 个文件)
+- **[Advanced Probability](../courses/Advanced-Probability.md)** (20 个文件)
+- **[Applied Stochastic Process](../courses/Applied-Stochastic-Process.md)** (28 个文件)
+- **[C++ Programming Language](../courses/C++-Programming-Language.md)** (18 个文件)
+- **[Calculus I](../courses/Calculus-I.md)** (38 个文件)
+- **[Calculus II](../courses/Calculus-II.md)** (70 个文件)
+- **[Complex Analysis](../courses/Complex-Analysis.md)** (30 个文件)
+- **[Data Structure](../courses/Data-Structure.md)** (24 个文件)
+- **[Financial Mathematics](../courses/Financial-Mathematics.md)** (27 个文件)
+- **[Introdction to Finance](../courses/Introdction-to-Finance.md)** (28 个文件)
+- **[Introduction to Econometrics](../courses/Introduction-to-Econometrics.md)** (89 个文件)
+- **[Introduction to Financial Derivatives](../courses/Introduction-to-Financial-Derivatives.md)** (50 个文件)
+- **[Investment Practice](../courses/Investment-Practice.md)** (125 个文件)
+- **[Investments](../courses/Investments.md)** (37 个文件)
+- **[Linear Algebra I](../courses/Linear-Algebra-I.md)** (45 个文件)
+- **[Linear Algebra II](../courses/Linear-Algebra-II.md)** (55 个文件)
+- **[Macroeconomics](../courses/Macroeconomics.md)** (45 个文件)
+- **[Mathematical Statistics](../courses/Mathematical-Statistics.md)** (31 个文件)
+- **[Microeconomics](../courses/Microeconomics.md)** (41 个文件)
+- **[Numerical Analysis](../courses/Numerical-Analysis.md)** (38 个文件)
+- **[Numerical and Simulation Techniques in Finance](../courses/Numerical-and-Simulation-Techniques-in-Finance.md)** (20 个文件)
+- **[Optimization](../courses/Optimization.md)** (24 个文件)
+- **[Ordinary Differential Equations](../courses/Ordinary-Differential-Equations.md)** (29 个文件)
+- **[Partial Differential Equations](../courses/Partial-Differential-Equations.md)** (20 个文件)
+- **[Principles of Accounting I](../courses/Principles-of-Accounting-I.md)** (17 个文件)
+- **[Probability Theory](../courses/Probability-Theory.md)** (33 个文件)
+- **[Risk Management in Finance](../courses/Risk-Management-in-Finance.md)** (24 个文件)
+- **[Time Series for Finance and Macroeconomics](../courses/Time-Series-for-Finance-and-Macroeconomics.md)** (35 个文件)
+- **[Vector Calculus and Complex Analysis](../courses/Vector-Calculus-and-Complex-Analysis.md)** (28 个文件)
+- **[选课攻略](../courses/选课攻略.md)** (2 个文件)
+
