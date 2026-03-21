@@ -1,218 +1,39 @@
-# BNBU-FM课程攻略 - VitePress前端
+# BNBU-FM课程攻略
+中文|[English](./README_en.md)
 
-基于VitePress的课程资料系统前端界面，使用metadata生成类似markdown样式的前端页面，支持显示课程中的文件内容。
+> Tip: 旧项目`https://github.com/FM-Course/bnbu-fm-course-sharing`将在不久之后弃用。
 
-## 功能特性
+## 前言
+搜集资料是每个大学生的必修课，但在茫茫的信息海洋中获取你想要的往往是繁杂的，困难的。我曾经在寒/暑假兴致大发，想找些下个学期课程的资料看看时，回到学校发现老师讲的东西和你找到的唯一的相同之处就是标题。亦或者明天就要quiz，但半个学期以来，老师只留下了寥寥几道习题，你只能惴惴不安的进考场，然后又垂头丧气的出来。虽然官方提供了ISpace，但每门课程的资料仅限当学期参加课程的同学查看，对于想提前了解的同学极不友好；甚至于有些老师连notes都不给，上课不记就直接寄。当离开ISpace转而求助于网络时，又发现你搜到的UC Berkely或者Princeton的课件跟老师的风马牛不相及。凡此种种，都将可爱的FMer们置于无尽的崩溃中去。
 
-- 📚 **课程资料展示**：从metadata自动生成课程页面
-- 📁 **文件分类**：按文件夹组织课程文件
-- 🔍 **分类浏览**：按课程分类（MR、ME、GE等）浏览
-- 📄 **文件预览**：支持PDF等文件在线预览
-- 🔄 **自动生成**：从metadata自动生成所有页面
-- 📱 **响应式设计**：适配各种设备屏幕
+这个项目志于将各个课程历年来的课件，notes，作业，考试汇总起来，便利无数FMer。我们可以先从MR和ME入手，待将来根基稳固之后也可以将一些热门GE和FE也纳入本项目中。甚至可以发展成一个FST乃至于整个BNBU的课程攻略。然而我深知这绝非我一人之力量所能企及的，所以我在此呼吁大家加入进这个惠及所有FMer乃至BNBUer的项目中来！
 
-## 项目结构
 
-```
-frontend-vitepress/
-├── docs/                    # 文档根目录
-│   ├── .vitepress/         # VitePress配置
-│   │   └── config.js       # 配置文件
-│   ├── index.md            # 首页
-│   ├── courses/            # 课程页面（自动生成）
-│   ├── categories/         # 分类页面（自动生成）
-│   ├── guide/             # 使用指南
-│   ├── contribute/         # 贡献指南
-│   └── thanks/            # 致谢页面
-├── scripts/
-│   └── generate-courses.js # 课程页面生成脚本
-├── package.json           # 项目配置
-└── README.md             # 项目说明
-```
+## 贡献
+Issue、PR、纠错、资料、选课/考试攻略，完全欢迎！来自大家的关注、维护和贡献，才是让这个攻略继续存在的动力~
 
-## 快速开始
+如果希望匿名贡献，可以 email 至 [此邮箱](mailto:fm-course@outlook.com)，在主题中注明FM课程攻略即可。
 
-### 1. 安装依赖
+为了让同学们更方便的获取所需的信息，请在贡献内容前阅读[贡献须知](./docs/contribute.md)
 
-```bash
-npm install
-```
+## 警告
+下列内容为不适合上传的内容。如果你认为缺少这些资料将会影响资源的完整性，请优先考虑放在其他平台，或联系你的教师并征得其同意后发布。建议你撰写一个 README 文档并放置一些链接或指引文字来帮助找到这些资源。
 
-### 2. 生成课程页面
+-   盗版电子书/付费电子书
+-   盗版/破解版/绿色版付费软件及其安装包
+-   课程/教师主页上列出的内容（请在获得教师许可后上传）
 
-```bash
-npm run generate
-```
+如因上述内容为项目造成任何不利影响，责任由资源上传者负担。如果你认为本仓库的一些文件侵犯了您的权益，请 [向我们发送邮件](mailto:fm-course@outlook.com) 。我们将会从仓库中彻底清除这些文件。
 
-### 3. 启动开发服务器
+## 版权声明
 
-```bash
-npm run dev
-```
+本项目所有内容采用 [CC BY-NC-SA](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.zh-hans) 许可证。
 
-访问 http://localhost:5173 查看效果。
+所有资料版权归原作者及北师香港浸会大学所有，**不得用于商业目的**。
 
-### 4. 构建生产版本
+## 致谢
+本项目受[浙江大学课程攻略共享计划](https://qsctech.github.io/zju-icicles/)与[清华大学计算机系课程攻略](https://rekcarc-tsc-uht.readthedocs.io/en/latest/)的启发，在此表示感谢！
 
-```bash
-npm run build
-```
+请参阅[致谢名单](./docs/thanks.md)
 
-构建结果在 `docs/.vitepress/dist` 目录。
-
-### 5. 预览生产版本
-
-```bash
-npm run preview
-```
-
-## 脚本说明
-
-### 生成课程页面
-
-```bash
-npm run generate
-```
-
-从 `../metadata/index/` 目录读取课程JSON文件，自动生成：
-- `docs/courses/` - 所有课程页面
-- `docs/courses/index.md` - 课程列表页面
-- `docs/categories/index.md` - 分类浏览页面
-
-### 一键部署
-
-```bash
-npm run deploy
-```
-
-相当于执行 `npm run generate && npm run build`，生成页面并构建生产版本。
-
-## 配置说明
-
-### 分类映射
-
-在 `scripts/generate-courses.js` 中定义分类映射：
-
-```javascript
-const categoryMap = {
-  'MR': 'Major Require',
-  'ME': 'Major Elective',
-  'FE': 'Free Elective',
-  'GE': 'General Education',
-  'UC': 'University Core',
-  'Other': 'Other Materials'
-};
-```
-
-### 文件链接格式
-
-课程文件链接使用GitHub Raw URL格式：
-```
-https://raw.githubusercontent.com/FM-Course/bnbu-fm-course-sharing/master/content/{课程路径}/{文件路径}
-```
-
-## 开发指南
-
-### 添加新页面
-
-1. 在 `docs/` 目录下创建 `.md` 文件
-2. 在 `docs/.vitepress/config.js` 中添加导航链接
-
-### 修改样式
-
-1. 创建 `docs/.vitepress/theme/` 目录
-2. 添加自定义CSS文件
-3. 在配置中引入
-
-### 添加功能组件
-
-VitePress支持Vue组件，可以在 `.md` 文件中使用：
-
-```vue
-<script setup>
-import { ref } from 'vue'
-const count = ref(0)
-</script>
-
-<template>
-  <button @click="count++">点击次数: {{ count }}</button>
-</template>
-```
-
-## 与metadata集成
-
-### metadata结构
-
-课程metadata文件位于 `../metadata/index/` 目录，格式如下：
-
-```json
-{
-  "path": "Linear-Algebra-I",
-  "title": "Linear Algebra I",
-  "code": "MATH1053",
-  "category": "MR",
-  "rank": "1.1.2",
-  "files": [
-    {
-      "name": "HW1a.pdf",
-      "path": "Homework-22fall/HW1a.pdf",
-      "size": 85938,
-      "sha256": "...",
-      "type": "pdf"
-    }
-  ]
-}
-```
-
-### 自动更新
-
-当metadata更新时，重新运行生成脚本：
-
-```bash
-npm run generate
-```
-
-## 部署指南
-
-### GitHub Pages
-
-1. 构建项目：`npm run deploy`
-2. 将 `docs/.vitepress/dist` 目录内容推送到 `gh-pages` 分支
-3. 在GitHub仓库设置中启用GitHub Pages
-
-### 自定义域名
-
-1. 在构建输出目录添加 `CNAME` 文件
-2. 配置DNS解析
-3. 在GitHub Pages设置中指定自定义域名
-
-## 常见问题
-
-### Q: 页面生成失败
-A: 检查metadata文件格式是否正确，确保所有必需字段都存在。
-
-### Q: 文件链接404
-A: 确认GitHub仓库中的文件路径与metadata中的路径一致。
-
-### Q: 样式不生效
-A: 清除浏览器缓存，或检查CSS文件路径是否正确。
-
-### Q: 开发服务器启动失败
-A: 检查Node.js版本（需要16+），确保所有依赖已安装。
-
-## 贡献指南
-
-欢迎贡献代码和改进建议！请参考：
-- [贡献指南](/contribute/) - 了解如何贡献课程资料
-- GitHub Issues - 提交问题或功能请求
-- Pull Requests - 提交代码改进
-
-## 许可证
-
-本项目基于MIT许可证开源。
-
-## 联系方式
-
-- 项目仓库：https://github.com/FM-Course/bnbu-fm-course-sharing
-- 问题反馈：GitHub Issues
-- 邮件联系：3125124390@qq.com
+如果你觉得这个项目对你有帮助，还请您不吝点颗star⭐
