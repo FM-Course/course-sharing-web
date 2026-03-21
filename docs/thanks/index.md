@@ -10,7 +10,7 @@
 
 请联系我们了解具体参与方式：
 - **Email**: fm-course@outlook.com
-- **GitHub**: [项目仓库](https://github.com/FM-Course/bnbu-fm-course-sharing)
+- **GitHub**: [项目仓库](https://github.com/FM-Course/course-sharing-web)
 
 
 

@@ -80,9 +80,9 @@ A: 请在GitHub仓库中提交Issue，我们会尽快处理。
 
 如果您有任何问题或建议，可以通过以下方式联系我们：
 
-- **GitHub Issues**: [提交问题或建议](https://github.com/FM-Course/bnbu-fm-course-sharing/issues)
+- **GitHub Issues**: [提交问题或建议](https://github.com/FM-Course/course-sharing-web/issues)
 - **Email**: 3125124390@qq.com
-- **项目主页**: [GitHub仓库](https://github.com/FM-Course/bnbu-fm-course-sharing)
+- **项目主页**: [GitHub仓库](https://github.com/FM-Course/course-sharing-web)
 
 ---
 

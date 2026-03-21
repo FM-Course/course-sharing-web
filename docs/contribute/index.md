@@ -67,7 +67,7 @@
 
 如果您在贡献过程中遇到任何问题，欢迎随时联系我们：
 
-- **GitHub Issues**: [提交问题](https://github.com/FM-Course/bnbu-fm-course-sharing/issues)
+- **GitHub Issues**: [提交问题](https://github.com/FM-Course/course-sharing-web/issues)
 - **Email**: fm-course@outlook.com
 
 
