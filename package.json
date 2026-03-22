@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "vitepress dev docs",
+    "dev": "node scripts/generate-structure.js --debug && vitepress dev docs-debug",
     "build": "vitepress build docs",
     "preview": "vitepress preview docs",
     "generate": "node scripts/generate-structure.js",

@@ -5,6 +5,13 @@ import { fileURLToPath } from 'url';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
+// 解析命令行参数，获取 DEBUG 模式
+const DEBUG = process.argv.includes('--debug');
+
+// Worker URL 配置
+const WORKER_URL_PROD = 'https://course-sharing-download.fm-course.workers.dev';
+const WORKER_URL_DEBUG = 'http://localhost:8787';
+
 // 分类映射
 const categoryMap = {
   'MR': 'Major Require',
@@ -24,7 +31,7 @@ const categoryMap = {
 function manifestToJson(manifest, courseName) {
   const files = manifest.files || {};
   const root = {};
-  const WORKER_URL = 'https://course-sharing-download.fm-course.workers.dev';
+  const WORKER_URL = DEBUG ? WORKER_URL_DEBUG : WORKER_URL_PROD;
 
   // 构建目录树，同时记录完整路径
   for (const [filePath, fileHash] of Object.entries(files)) {
@@ -317,13 +324,17 @@ function readCourseMetadata(courseInfoPath, manifest) {
  * 主函数
  */
 async function main() {
-  console.log('Starting generation process...');
+  console.log(`Starting generation process... (${DEBUG ? 'DEBUG模式' : '生产模式'})`);
+
+  // 根据模式选择文档目录
+  const docsDir = DEBUG ? 'docs-debug' : 'docs';
+  console.log(`使用文档目录: ${docsDir}`);
 
   // 路径配置
-  const manifestPath = path.join(__dirname, '../docs/.vitepress/public/manifest.json');
-  const outputDir = path.join(__dirname, '../docs/courses');
-  const templatePath = path.join(__dirname, '../docs/.vitepress/templates/course_template.md');
-  const courseInfoPath = path.join(__dirname, '../docs/.vitepress/public/course-info.json');
+  const manifestPath = path.join(__dirname, `../${docsDir}/.vitepress/public/manifest.json`);
+  const outputDir = path.join(__dirname, `../${docsDir}/courses`);
+  const templatePath = path.join(__dirname, `../${docsDir}/.vitepress/templates/course_template.md`);
+  const courseInfoPath = path.join(__dirname, `../${docsDir}/.vitepress/public/course-info.json`);
 
   // 确保输出目录存在
   if (!fs.existsSync(outputDir)) {
