@@ -12,7 +12,7 @@ jobs:
     steps:
       - name: Trigger Worker refresh
         env:
-          WORKER_URL: ${{ secrets.WORKER_URL }}
+          WORKER_URL: ${{ vars.WORKER_URL }}
           REFRESH_TOKEN: ${{ secrets.REFRESH_TOKEN }}
         run: |
           if [ -z "$WORKER_URL" ] || [ -z "$REFRESH_TOKEN" ]; then
