@@ -59,8 +59,23 @@ function manifestToJson(manifest, courseName) {
     }
   }
 
+  // 递归检查一个节点及其子节点是否包含文件
+  function hasAnyFiles(node) {
+    if (typeof node === 'object' && node !== null) {
+      if (node.type === 'file') {
+        return true;
+      }
+      for (const child of Object.values(node)) {
+        if (hasAnyFiles(child)) {
+          return true;
+        }
+      }
+    }
+    return false;
+  }
+
   // 递归构建结果
-  function buildResult(node, parentName = null) {
+  function buildResult(node, parentName = null, parentPath = '') {
     if (typeof node === 'object' && node !== null) {
       // 检查是否是文件节点（有type属性）
       if (node.type === 'file') {
@@ -77,23 +92,23 @@ function manifestToJson(manifest, courseName) {
 
       // 检查是否是目录节点（没有type属性，但有子节点）
       const children = [];
-      let hasFileChildren = false;
+
+      // 构建当前文件夹的完整路径
+      const currentFolderPath = parentPath
+        ? `${parentPath}/${parentName}`
+        : (parentName || '');
 
       for (const [key, value] of Object.entries(node)) {
-        const child = buildResult(value, key);
+        const child = buildResult(value, key, currentFolderPath);
         if (child) {
           children.push(child);
-          if (child.type === 'file') {
-            hasFileChildren = true;
-          }
         }
       }
 
       if (children.length > 0) {
         // 如果有父名称，返回目录结构
         if (parentName) {
-          const folderPath = parentName;
-          const fullPath = `${courseName}/${folderPath}`;
+          const fullPath = `${courseName}/${currentFolderPath}`;
           const result = {
             name: parentName,
             type: 'directory',
@@ -101,8 +116,8 @@ function manifestToJson(manifest, courseName) {
             children: children
           };
 
-          // 只有包含文件的文件夹才添加下载链接
-          if (hasFileChildren) {
+          // 只要文件夹（及其子文件夹）包含文件，就添加下载链接
+          if (hasAnyFiles(node)) {
             // 编码路径，但保留斜杠
             const encodedPath = fullPath.split('/').map(segment => encodeURIComponent(segment)).join('/');
             result.downloadUrl = `${WORKER_URL}/download/${encodedPath}/`;

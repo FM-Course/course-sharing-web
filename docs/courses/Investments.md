@@ -35,7 +35,7 @@ const treeData = reactive([
             "downloadText": "下载 wrangler-account.json"
           }
         ],
-        "downloadUrl": "https://course-sharing-download.fm-course.workers.dev/download/Investments/cache/",
+        "downloadUrl": "https://course-sharing-download.fm-course.workers.dev/download/Investments/.wrangler/cache/",
         "downloadText": "下载整个 cache 文件夹 (ZIP格式)"
       }
     ]

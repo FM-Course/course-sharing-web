@@ -47,7 +47,7 @@ const treeData = reactive([
             "downloadText": "下载 Sorting.h"
           }
         ],
-        "downloadUrl": "https://course-sharing-download.fm-course.workers.dev/download/Data-Structure/Assignment-4/",
+        "downloadUrl": "https://course-sharing-download.fm-course.workers.dev/download/Data-Structure/Assignments-24spring/Assignment-4/",
         "downloadText": "下载整个 Assignment-4 文件夹 (ZIP格式)"
       },
       {
@@ -74,7 +74,7 @@ const treeData = reactive([
             "downloadText": "下载 TreeNode.h"
           }
         ],
-        "downloadUrl": "https://course-sharing-download.fm-course.workers.dev/download/Data-Structure/Assignment-5/",
+        "downloadUrl": "https://course-sharing-download.fm-course.workers.dev/download/Data-Structure/Assignments-24spring/Assignment-5/",
         "downloadText": "下载整个 Assignment-5 文件夹 (ZIP格式)"
       },
       {

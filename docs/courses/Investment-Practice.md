@@ -57,7 +57,7 @@ const treeData = reactive([
             "downloadText": "下载 qqq_tqqq_returns.csv"
           }
         ],
-        "downloadUrl": "https://course-sharing-download.fm-course.workers.dev/download/Investment-Practice/Assignment-1_-Leveraged-ETF-Analysis-(Sol)/",
+        "downloadUrl": "https://course-sharing-download.fm-course.workers.dev/download/Investment-Practice/Assignments-25fall/Assignment-1_-Leveraged-ETF-Analysis-(Sol)/",
         "downloadText": "下载整个 Assignment-1_-Leveraged-ETF-Analysis-(Sol) 文件夹 (ZIP格式)"
       },
       {
@@ -90,7 +90,7 @@ const treeData = reactive([
             "downloadText": "下载 qqq_tqqq_returns.csv"
           }
         ],
-        "downloadUrl": "https://course-sharing-download.fm-course.workers.dev/download/Investment-Practice/Assignment-1_-Leveraged-ETF-Analysis/",
+        "downloadUrl": "https://course-sharing-download.fm-course.workers.dev/download/Investment-Practice/Assignments-25fall/Assignment-1_-Leveraged-ETF-Analysis/",
         "downloadText": "下载整个 Assignment-1_-Leveraged-ETF-Analysis 文件夹 (ZIP格式)"
       },
       {
@@ -117,7 +117,7 @@ const treeData = reactive([
             "downloadText": "下载 portfolio2_diversified_sectors_returns.csv"
           }
         ],
-        "downloadUrl": "https://course-sharing-download.fm-course.workers.dev/download/Investment-Practice/Assignment-2-Portfolio-Risk-Analysis-(Sol)/",
+        "downloadUrl": "https://course-sharing-download.fm-course.workers.dev/download/Investment-Practice/Assignments-25fall/Assignment-2-Portfolio-Risk-Analysis-(Sol)/",
         "downloadText": "下载整个 Assignment-2-Portfolio-Risk-Analysis-(Sol) 文件夹 (ZIP格式)"
       },
       {
@@ -144,7 +144,7 @@ const treeData = reactive([
             "downloadText": "下载 portfolio2_diversified_sectors_returns.csv"
           }
         ],
-        "downloadUrl": "https://course-sharing-download.fm-course.workers.dev/download/Investment-Practice/Assignment-2-Portfolio-Risk-Analysis/",
+        "downloadUrl": "https://course-sharing-download.fm-course.workers.dev/download/Investment-Practice/Assignments-25fall/Assignment-2-Portfolio-Risk-Analysis/",
         "downloadText": "下载整个 Assignment-2-Portfolio-Risk-Analysis 文件夹 (ZIP格式)"
       },
       {
@@ -159,7 +159,7 @@ const treeData = reactive([
             "downloadText": "下载 Lab-0-Python-Review-Sol.ipynb"
           }
         ],
-        "downloadUrl": "https://course-sharing-download.fm-course.workers.dev/download/Investment-Practice/Lab-0-Python-Review-(Sol)/",
+        "downloadUrl": "https://course-sharing-download.fm-course.workers.dev/download/Investment-Practice/Assignments-25fall/Lab-0-Python-Review-(Sol)/",
         "downloadText": "下载整个 Lab-0-Python-Review-(Sol) 文件夹 (ZIP格式)"
       },
       {
@@ -174,7 +174,7 @@ const treeData = reactive([
             "downloadText": "下载 Lab-0-Python-Review.ipynb"
           }
         ],
-        "downloadUrl": "https://course-sharing-download.fm-course.workers.dev/download/Investment-Practice/Lab-0-Python-Review/",
+        "downloadUrl": "https://course-sharing-download.fm-course.workers.dev/download/Investment-Practice/Assignments-25fall/Lab-0-Python-Review/",
         "downloadText": "下载整个 Lab-0-Python-Review 文件夹 (ZIP格式)"
       },
       {
@@ -189,7 +189,7 @@ const treeData = reactive([
             "downloadText": "下载 Lab-1-Numpy-Sol.ipynb"
           }
         ],
-        "downloadUrl": "https://course-sharing-download.fm-course.workers.dev/download/Investment-Practice/Lab-1-Numpy-(Sol)/",
+        "downloadUrl": "https://course-sharing-download.fm-course.workers.dev/download/Investment-Practice/Assignments-25fall/Lab-1-Numpy-(Sol)/",
         "downloadText": "下载整个 Lab-1-Numpy-(Sol) 文件夹 (ZIP格式)"
       },
       {
@@ -204,7 +204,7 @@ const treeData = reactive([
             "downloadText": "下载 Lab-1-Numpy.ipynb"
           }
         ],
-        "downloadUrl": "https://course-sharing-download.fm-course.workers.dev/download/Investment-Practice/Lab-1-Numpy/",
+        "downloadUrl": "https://course-sharing-download.fm-course.workers.dev/download/Investment-Practice/Assignments-25fall/Lab-1-Numpy/",
         "downloadText": "下载整个 Lab-1-Numpy 文件夹 (ZIP格式)"
       },
       {
@@ -219,7 +219,7 @@ const treeData = reactive([
             "downloadText": "下载 Lab-2-Pandas-Sol.ipynb"
           }
         ],
-        "downloadUrl": "https://course-sharing-download.fm-course.workers.dev/download/Investment-Practice/Lab-2-Pandas-Time-Series-(Sol)/",
+        "downloadUrl": "https://course-sharing-download.fm-course.workers.dev/download/Investment-Practice/Assignments-25fall/Lab-2-Pandas-Time-Series-(Sol)/",
         "downloadText": "下载整个 Lab-2-Pandas-Time-Series-(Sol) 文件夹 (ZIP格式)"
       },
       {
@@ -258,7 +258,7 @@ const treeData = reactive([
             "downloadText": "下载 TSLA_stock_data.csv"
           }
         ],
-        "downloadUrl": "https://course-sharing-download.fm-course.workers.dev/download/Investment-Practice/Lab-2-Pandas-Time-Series/",
+        "downloadUrl": "https://course-sharing-download.fm-course.workers.dev/download/Investment-Practice/Assignments-25fall/Lab-2-Pandas-Time-Series/",
         "downloadText": "下载整个 Lab-2-Pandas-Time-Series 文件夹 (ZIP格式)"
       },
       {
@@ -297,7 +297,7 @@ const treeData = reactive([
             "downloadText": "下载 TSLA_stock_data.csv"
           }
         ],
-        "downloadUrl": "https://course-sharing-download.fm-course.workers.dev/download/Investment-Practice/Lab-3-Plotting-(Sol)/",
+        "downloadUrl": "https://course-sharing-download.fm-course.workers.dev/download/Investment-Practice/Assignments-25fall/Lab-3-Plotting-(Sol)/",
         "downloadText": "下载整个 Lab-3-Plotting-(Sol) 文件夹 (ZIP格式)"
       },
       {
@@ -336,7 +336,7 @@ const treeData = reactive([
             "downloadText": "下载 TSLA_stock_data.csv"
           }
         ],
-        "downloadUrl": "https://course-sharing-download.fm-course.workers.dev/download/Investment-Practice/Lab-3-Plotting/",
+        "downloadUrl": "https://course-sharing-download.fm-course.workers.dev/download/Investment-Practice/Assignments-25fall/Lab-3-Plotting/",
         "downloadText": "下载整个 Lab-3-Plotting 文件夹 (ZIP格式)"
       },
       {
@@ -357,7 +357,7 @@ const treeData = reactive([
             "downloadText": "下载 spy.csv"
           }
         ],
-        "downloadUrl": "https://course-sharing-download.fm-course.workers.dev/download/Investment-Practice/Lab-4-Lumpsum-or-DCA-(Sol)/",
+        "downloadUrl": "https://course-sharing-download.fm-course.workers.dev/download/Investment-Practice/Assignments-25fall/Lab-4-Lumpsum-or-DCA-(Sol)/",
         "downloadText": "下载整个 Lab-4-Lumpsum-or-DCA-(Sol) 文件夹 (ZIP格式)"
       },
       {
@@ -378,7 +378,7 @@ const treeData = reactive([
             "downloadText": "下载 spy.csv"
           }
         ],
-        "downloadUrl": "https://course-sharing-download.fm-course.workers.dev/download/Investment-Practice/Lab-4-Lumpsum-or-DCA/",
+        "downloadUrl": "https://course-sharing-download.fm-course.workers.dev/download/Investment-Practice/Assignments-25fall/Lab-4-Lumpsum-or-DCA/",
         "downloadText": "下载整个 Lab-4-Lumpsum-or-DCA 文件夹 (ZIP格式)"
       },
       {
@@ -399,7 +399,7 @@ const treeData = reactive([
             "downloadText": "下载 TWTR.csv"
           }
         ],
-        "downloadUrl": "https://course-sharing-download.fm-course.workers.dev/download/Investment-Practice/Lab-5-Merger-and-Acquisition-(Sol)/",
+        "downloadUrl": "https://course-sharing-download.fm-course.workers.dev/download/Investment-Practice/Assignments-25fall/Lab-5-Merger-and-Acquisition-(Sol)/",
         "downloadText": "下载整个 Lab-5-Merger-and-Acquisition-(Sol) 文件夹 (ZIP格式)"
       },
       {
@@ -420,7 +420,7 @@ const treeData = reactive([
             "downloadText": "下载 TWTR.csv"
           }
         ],
-        "downloadUrl": "https://course-sharing-download.fm-course.workers.dev/download/Investment-Practice/Lab-5-Merger-and-Acquisition/",
+        "downloadUrl": "https://course-sharing-download.fm-course.workers.dev/download/Investment-Practice/Assignments-25fall/Lab-5-Merger-and-Acquisition/",
         "downloadText": "下载整个 Lab-5-Merger-and-Acquisition 文件夹 (ZIP格式)"
       },
       {
@@ -441,7 +441,7 @@ const treeData = reactive([
             "downloadText": "下载 MSFT.csv"
           }
         ],
-        "downloadUrl": "https://course-sharing-download.fm-course.workers.dev/download/Investment-Practice/Lab-6-Backtrader-(NEW)/",
+        "downloadUrl": "https://course-sharing-download.fm-course.workers.dev/download/Investment-Practice/Assignments-25fall/Lab-6-Backtrader-(NEW)/",
         "downloadText": "下载整个 Lab-6-Backtrader-(NEW) 文件夹 (ZIP格式)"
       },
       {
@@ -462,7 +462,7 @@ const treeData = reactive([
             "downloadText": "下载 MSFT.csv"
           }
         ],
-        "downloadUrl": "https://course-sharing-download.fm-course.workers.dev/download/Investment-Practice/Lab-6-Backtrader-(Sol)/",
+        "downloadUrl": "https://course-sharing-download.fm-course.workers.dev/download/Investment-Practice/Assignments-25fall/Lab-6-Backtrader-(Sol)/",
         "downloadText": "下载整个 Lab-6-Backtrader-(Sol) 文件夹 (ZIP格式)"
       },
       {
@@ -483,7 +483,7 @@ const treeData = reactive([
             "downloadText": "下载 MSFT.csv"
           }
         ],
-        "downloadUrl": "https://course-sharing-download.fm-course.workers.dev/download/Investment-Practice/Lab-6-Backtrader/",
+        "downloadUrl": "https://course-sharing-download.fm-course.workers.dev/download/Investment-Practice/Assignments-25fall/Lab-6-Backtrader/",
         "downloadText": "下载整个 Lab-6-Backtrader 文件夹 (ZIP格式)"
       },
       {
@@ -504,7 +504,7 @@ const treeData = reactive([
             "downloadText": "下载 stock_prices.csv"
           }
         ],
-        "downloadUrl": "https://course-sharing-download.fm-course.workers.dev/download/Investment-Practice/Lab-7-Efficient-Frontier-(Sol)/",
+        "downloadUrl": "https://course-sharing-download.fm-course.workers.dev/download/Investment-Practice/Assignments-25fall/Lab-7-Efficient-Frontier-(Sol)/",
         "downloadText": "下载整个 Lab-7-Efficient-Frontier-(Sol) 文件夹 (ZIP格式)"
       },
       {
@@ -525,7 +525,7 @@ const treeData = reactive([
             "downloadText": "下载 stock_prices.csv"
           }
         ],
-        "downloadUrl": "https://course-sharing-download.fm-course.workers.dev/download/Investment-Practice/Lab-7-Efficient-Frontier/",
+        "downloadUrl": "https://course-sharing-download.fm-course.workers.dev/download/Investment-Practice/Assignments-25fall/Lab-7-Efficient-Frontier/",
         "downloadText": "下载整个 Lab-7-Efficient-Frontier 文件夹 (ZIP格式)"
       }
     ]
@@ -570,11 +570,11 @@ const treeData = reactive([
                 "downloadText": "下载 piano.mp4"
               }
             ],
-            "downloadUrl": "https://course-sharing-download.fm-course.workers.dev/download/Investment-Practice/img/",
+            "downloadUrl": "https://course-sharing-download.fm-course.workers.dev/download/Investment-Practice/Notes-25fall/0.0-Arrangement/img/",
             "downloadText": "下载整个 img 文件夹 (ZIP格式)"
           }
         ],
-        "downloadUrl": "https://course-sharing-download.fm-course.workers.dev/download/Investment-Practice/0.0-Arrangement/",
+        "downloadUrl": "https://course-sharing-download.fm-course.workers.dev/download/Investment-Practice/Notes-25fall/0.0-Arrangement/",
         "downloadText": "下载整个 0.0-Arrangement 文件夹 (ZIP格式)"
       },
       {
@@ -589,7 +589,7 @@ const treeData = reactive([
             "downloadText": "下载 1.0-python-review.ipynb"
           }
         ],
-        "downloadUrl": "https://course-sharing-download.fm-course.workers.dev/download/Investment-Practice/1.0-Python-Review/",
+        "downloadUrl": "https://course-sharing-download.fm-course.workers.dev/download/Investment-Practice/Notes-25fall/1.0-Python-Review/",
         "downloadText": "下载整个 1.0-Python-Review 文件夹 (ZIP格式)"
       },
       {
@@ -604,7 +604,7 @@ const treeData = reactive([
             "downloadText": "下载 1.1-numpy.ipynb"
           }
         ],
-        "downloadUrl": "https://course-sharing-download.fm-course.workers.dev/download/Investment-Practice/1.1-Numpy/",
+        "downloadUrl": "https://course-sharing-download.fm-course.workers.dev/download/Investment-Practice/Notes-25fall/1.1-Numpy/",
         "downloadText": "下载整个 1.1-Numpy 文件夹 (ZIP格式)"
       },
       {
@@ -643,7 +643,7 @@ const treeData = reactive([
             "downloadText": "下载 sample_portfolio.csv"
           }
         ],
-        "downloadUrl": "https://course-sharing-download.fm-course.workers.dev/download/Investment-Practice/1.2-Pandas-TimeSeries/",
+        "downloadUrl": "https://course-sharing-download.fm-course.workers.dev/download/Investment-Practice/Notes-25fall/1.2-Pandas-TimeSeries/",
         "downloadText": "下载整个 1.2-Pandas-TimeSeries 文件夹 (ZIP格式)"
       },
       {
@@ -664,7 +664,7 @@ const treeData = reactive([
             "downloadText": "下载 Microsoft.png"
           }
         ],
-        "downloadUrl": "https://course-sharing-download.fm-course.workers.dev/download/Investment-Practice/1.3-Matplotlib/",
+        "downloadUrl": "https://course-sharing-download.fm-course.workers.dev/download/Investment-Practice/Notes-25fall/1.3-Matplotlib/",
         "downloadText": "下载整个 1.3-Matplotlib 文件夹 (ZIP格式)"
       },
       {
@@ -703,7 +703,7 @@ const treeData = reactive([
             "downloadText": "下载 TSLA_stock_data.csv"
           }
         ],
-        "downloadUrl": "https://course-sharing-download.fm-course.workers.dev/download/Investment-Practice/1.3-Plotting/",
+        "downloadUrl": "https://course-sharing-download.fm-course.workers.dev/download/Investment-Practice/Notes-25fall/1.3-Plotting/",
         "downloadText": "下载整个 1.3-Plotting 文件夹 (ZIP格式)"
       },
       {
@@ -766,7 +766,7 @@ const treeData = reactive([
             "downloadText": "下载 期货课件.ipynb"
           }
         ],
-        "downloadUrl": "https://course-sharing-download.fm-course.workers.dev/download/Investment-Practice/2-Financial-Assets/",
+        "downloadUrl": "https://course-sharing-download.fm-course.workers.dev/download/Investment-Practice/Notes-25fall/2-Financial-Assets/",
         "downloadText": "下载整个 2-Financial-Assets 文件夹 (ZIP格式)"
       },
       {
@@ -841,7 +841,7 @@ const treeData = reactive([
             "downloadText": "下载 MSFT.csv"
           }
         ],
-        "downloadUrl": "https://course-sharing-download.fm-course.workers.dev/download/Investment-Practice/3-Backtesting/",
+        "downloadUrl": "https://course-sharing-download.fm-course.workers.dev/download/Investment-Practice/Notes-25fall/3-Backtesting/",
         "downloadText": "下载整个 3-Backtesting 文件夹 (ZIP格式)"
       },
       {
@@ -958,7 +958,7 @@ const treeData = reactive([
             "downloadText": "下载 学生课程分享.ipynb"
           }
         ],
-        "downloadUrl": "https://course-sharing-download.fm-course.workers.dev/download/Investment-Practice/4-Trading-Strategies/",
+        "downloadUrl": "https://course-sharing-download.fm-course.workers.dev/download/Investment-Practice/Notes-25fall/4-Trading-Strategies/",
         "downloadText": "下载整个 4-Trading-Strategies 文件夹 (ZIP格式)"
       },
       {
@@ -1015,7 +1015,7 @@ const treeData = reactive([
             "downloadText": "下载 strategy-life.png"
           }
         ],
-        "downloadUrl": "https://course-sharing-download.fm-course.workers.dev/download/Investment-Practice/5-BackTrader/",
+        "downloadUrl": "https://course-sharing-download.fm-course.workers.dev/download/Investment-Practice/Notes-25fall/5-BackTrader/",
         "downloadText": "下载整个 5-BackTrader 文件夹 (ZIP格式)"
       },
       {
@@ -1048,7 +1048,7 @@ const treeData = reactive([
             "downloadText": "下载 stock_returns.csv"
           }
         ],
-        "downloadUrl": "https://course-sharing-download.fm-course.workers.dev/download/Investment-Practice/6-Risk1_-Risk-Fundamentals-and-Efficient-Frontier/",
+        "downloadUrl": "https://course-sharing-download.fm-course.workers.dev/download/Investment-Practice/Notes-25fall/6-Risk1_-Risk-Fundamentals-and-Efficient-Frontier/",
         "downloadText": "下载整个 6-Risk1_-Risk-Fundamentals-and-Efficient-Frontier 文件夹 (ZIP格式)"
       },
       {
@@ -1087,7 +1087,7 @@ const treeData = reactive([
             "downloadText": "下载 stock_returns.csv"
           }
         ],
-        "downloadUrl": "https://course-sharing-download.fm-course.workers.dev/download/Investment-Practice/7-Risk2_-Portfolio-Risk/",
+        "downloadUrl": "https://course-sharing-download.fm-course.workers.dev/download/Investment-Practice/Notes-25fall/7-Risk2_-Portfolio-Risk/",
         "downloadText": "下载整个 7-Risk2_-Portfolio-Risk 文件夹 (ZIP格式)"
       }
     ]

@@ -47,7 +47,7 @@ const treeData = reactive([
             "downloadText": "下载 POAI-Assignment-1-Answer-.docx"
           }
         ],
-        "downloadUrl": "https://course-sharing-download.fm-course.workers.dev/download/Principles-of-Accounting-I/Assignment-1/",
+        "downloadUrl": "https://course-sharing-download.fm-course.workers.dev/download/Principles-of-Accounting-I/Assignment-2023spring/Assignment-1/",
         "downloadText": "下载整个 Assignment-1 文件夹 (ZIP格式)"
       },
       {
@@ -68,7 +68,7 @@ const treeData = reactive([
             "downloadText": "下载 POAI-Assignment-2_Solution_2.pdf"
           }
         ],
-        "downloadUrl": "https://course-sharing-download.fm-course.workers.dev/download/Principles-of-Accounting-I/Assignment-2/",
+        "downloadUrl": "https://course-sharing-download.fm-course.workers.dev/download/Principles-of-Accounting-I/Assignment-2023spring/Assignment-2/",
         "downloadText": "下载整个 Assignment-2 文件夹 (ZIP格式)"
       },
       {
@@ -89,7 +89,7 @@ const treeData = reactive([
             "downloadText": "下载 POAI-Assignment-3_Questions_Finalized.docx"
           }
         ],
-        "downloadUrl": "https://course-sharing-download.fm-course.workers.dev/download/Principles-of-Accounting-I/Assignment-3/",
+        "downloadUrl": "https://course-sharing-download.fm-course.workers.dev/download/Principles-of-Accounting-I/Assignment-2023spring/Assignment-3/",
         "downloadText": "下载整个 Assignment-3 文件夹 (ZIP格式)"
       }
     ]

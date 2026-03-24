@@ -299,7 +299,7 @@ const treeData = reactive([
             "downloadText": "下载 Untitled-1.r"
           }
         ],
-        "downloadUrl": "https://course-sharing-download.fm-course.workers.dev/download/Introduction-to-Econometrics/Exercise-2-data/",
+        "downloadUrl": "https://course-sharing-download.fm-course.workers.dev/download/Introduction-to-Econometrics/Exercise-2024fall/Exercise-2-data/",
         "downloadText": "下载整个 Exercise-2-data 文件夹 (ZIP格式)"
       },
       {
@@ -356,7 +356,7 @@ const treeData = reactive([
             "downloadText": "下载 discrim.xls"
           }
         ],
-        "downloadUrl": "https://course-sharing-download.fm-course.workers.dev/download/Introduction-to-Econometrics/Exercise-3-data/",
+        "downloadUrl": "https://course-sharing-download.fm-course.workers.dev/download/Introduction-to-Econometrics/Exercise-2024fall/Exercise-3-data/",
         "downloadText": "下载整个 Exercise-3-data 文件夹 (ZIP格式)"
       },
       {
@@ -413,7 +413,7 @@ const treeData = reactive([
             "downloadText": "下载 discrim.xls"
           }
         ],
-        "downloadUrl": "https://course-sharing-download.fm-course.workers.dev/download/Introduction-to-Econometrics/Exercise-4-data/",
+        "downloadUrl": "https://course-sharing-download.fm-course.workers.dev/download/Introduction-to-Econometrics/Exercise-2024fall/Exercise-4-data/",
         "downloadText": "下载整个 Exercise-4-data 文件夹 (ZIP格式)"
       },
       {
@@ -488,7 +488,7 @@ const treeData = reactive([
             "downloadText": "下载 wage1.xls"
           }
         ],
-        "downloadUrl": "https://course-sharing-download.fm-course.workers.dev/download/Introduction-to-Econometrics/Exercise-5-data/",
+        "downloadUrl": "https://course-sharing-download.fm-course.workers.dev/download/Introduction-to-Econometrics/Exercise-2024fall/Exercise-5-data/",
         "downloadText": "下载整个 Exercise-5-data 文件夹 (ZIP格式)"
       }
     ],
