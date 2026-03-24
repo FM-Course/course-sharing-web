@@ -22,9 +22,7 @@ jobs:
 
           echo "Refreshing manifest cache..."
 
-          RESPONSE=$(curl -s -w "\n%{http_code}" -X POST \
-            -H "Authorization: Bearer $REFRESH_TOKEN" \
-            "$WORKER_URL/refresh-manifest")
+          RESPONSE=$(curl -s -w "\n%{http_code}" -X POST -H "Authorization: Bearer $REFRESH_TOKEN" "$WORKER_URL/refresh-manifest")
 
           HTTP_CODE=$(echo "$RESPONSE" | tail -n1)
           BODY=$(echo "$RESPONSE" | head -n -1)
