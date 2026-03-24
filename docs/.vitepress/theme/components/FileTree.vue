@@ -9,13 +9,16 @@
           </div>
           <div class="folder-actions">
             <button
-              v-if="item.downloadUrl"
+              v-if="item.downloadUrl && !isDownloading(item)"
               class="download-btn"
               @click="downloadItem(item)"
               :title="item.downloadText || '下载文件夹'"
             >
               下载文件夹
             </button>
+            <div v-else-if="isDownloading(item)" class="download-progress-inline">
+              <span class="progress-text">{{ getDownloadProgress(item).percent }}%</span>
+            </div>
           </div>
         </div>
 
@@ -33,13 +36,16 @@
         </div>
         <div class="file-actions">
           <button
-            v-if="item.downloadUrl"
+            v-if="item.downloadUrl && !isDownloading(item)"
             class="download-btn"
             @click="downloadItem(item)"
             :title="item.downloadText || '下载文件'"
           >
             下载
           </button>
+          <div v-else-if="isDownloading(item)" class="download-progress-inline">
+            <span class="progress-text">{{ getDownloadProgress(item).percent }}%</span>
+          </div>
         </div>
       </div>
     </div>
@@ -47,7 +53,7 @@
 </template>
 
 <script setup>
-import { computed } from 'vue'
+import { computed, reactive } from 'vue'
 
 const props = defineProps({
   data: {
@@ -55,6 +61,9 @@ const props = defineProps({
     required: true
   }
 })
+
+// 下载状态管理
+const downloads = reactive(new Map())  // item -> downloadState
 
 // 1. 排序逻辑：文件夹在前，文件在后，同类字典序
 const sortedData = computed(() => {
@@ -84,49 +93,116 @@ const closeAll = (children) => {
   })
 }
 
-// 3. 下载功能
+// 3. 检查是否正在下载
+function isDownloading(item) {
+  return downloads.has(item)
+}
+
+// 获取下载进度
+function getDownloadProgress(item) {
+  return downloads.get(item) || { percent: 0 }
+}
+
+// 4. 下载功能（带进度条）
 const downloadItem = async (item) => {
-  if (!item.downloadUrl) return;
+  if (!item.downloadUrl || downloads.has(item)) return
 
   try {
-    console.log(`开始下载: ${item.name}`, item.downloadUrl);
+    console.log(`开始下载: ${item.name}`, item.downloadUrl)
 
-    const response = await fetch(item.downloadUrl);
+    // 初始化下载状态
+    const downloadState = reactive({
+      percent: 0,
+      completed: false,
+      error: null
+    })
+
+    downloads.set(item, downloadState)
+
+    const response = await fetch(item.downloadUrl)
 
     if (!response.ok) {
-      throw new Error(`下载失败: ${response.status} ${response.statusText}`);
+      throw new Error(`下载失败: ${response.status} ${response.statusText}`)
     }
 
     // 获取文件名
-    let filename = item.name;
-    const contentDisposition = response.headers.get('Content-Disposition');
+    let filename = item.name
+    const contentDisposition = response.headers.get('Content-Disposition')
     if (contentDisposition) {
-      const match = contentDisposition.match(/filename="(.+)"/);
+      const match = contentDisposition.match(/filename="(.+)"/)
       if (match) {
-        filename = decodeURIComponent(match[1]);
+        filename = decodeURIComponent(match[1])
       }
     }
 
     // 如果是文件夹，添加.zip扩展名
     if (item.type === 'directory' && !filename.endsWith('.zip')) {
-      filename = `${filename}.zip`;
+      filename = `${filename}.zip`
     }
 
-    // 创建下载
-    const blob = await response.blob();
-    const url = window.URL.createObjectURL(blob);
-    const a = document.createElement('a');
-    a.href = url;
-    a.download = filename;
-    document.body.appendChild(a);
-    a.click();
-    document.body.removeChild(a);
-    window.URL.revokeObjectURL(url);
+    // 获取总大小
+    const contentLength = response.headers.get('Content-Length')
+    const total = contentLength ? parseInt(contentLength, 10) : 0
 
-    console.log(`下载成功: ${filename}`);
+    // 流式下载，显示进度
+    const reader = response.body.getReader()
+    const chunks = []
+    let received = 0
+
+    while (true) {
+      const { done, value } = await reader.read()
+
+      if (done) {
+        break
+      }
+
+      chunks.push(value)
+      received += value.length
+
+      if (total > 0) {
+        downloadState.percent = Math.min(
+          100,
+          Math.round((received / total) * 100)
+        )
+      }
+    }
+
+    downloadState.completed = true
+    downloadState.percent = 100
+
+    // 创建 Blob 并触发下载
+    const blob = new Blob(chunks)
+    const url = window.URL.createObjectURL(blob)
+    const a = document.createElement('a')
+    a.href = url
+    a.download = filename
+    document.body.appendChild(a)
+    a.click()
+    document.body.removeChild(a)
+    window.URL.revokeObjectURL(url)
+
+    console.log(`下载成功: ${filename}`)
+
+    // 短暂显示完成状态，然后清理
+    setTimeout(() => {
+      downloads.delete(item)
+    }, 1000)
+
   } catch (error) {
-    console.error('下载错误:', error);
-    alert(`下载失败: ${error.message}`);
+    console.error('下载错误:', error)
+
+    // 更新错误状态
+    const downloadState = downloads.get(item)
+    if (downloadState) {
+      downloadState.error = error.message
+    }
+
+    alert(`下载失败: ${error.message}`)
+
+    // 清理
+    setTimeout(() => {
+      downloads.delete(item)
+    }, 3000)
   }
 }
 </script>
@@ -169,6 +245,7 @@ const downloadItem = async (item) => {
 .folder-actions {
   display: flex;
   gap: 8px;
+  align-items: center;
 }
 
 .file {
@@ -192,6 +269,7 @@ const downloadItem = async (item) => {
 .file-actions {
   display: flex;
   gap: 8px;
+  align-items: center;
 }
 
 .icon {
@@ -215,6 +293,18 @@ const downloadItem = async (item) => {
 
 .download-btn:hover {
   background: var(--vp-button-brand-hover-bg);
+}
+
+/* 行内进度显示 */
+.download-progress-inline {
+  padding: 4px 12px;
+  font-size: 0.85em;
+  font-weight: 500;
+  color: var(--vp-c-text-2);
+}
+
+.progress-text {
+  color: var(--vp-button-brand-bg);
 }
 
 .folder-content {
