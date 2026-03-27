@@ -1085,5 +1085,536 @@
         "Vector-Calculus-and-Complex-Analysis/Supplementary-Notes.pdf": "86584a366a77eb98cc81d766de4a08f193df4e32b7f6b295ebd5e611b5f64e7e",
         "选课攻略/2024GE攻略(1).pdf": "6b857bdfaf10a1348e621048cd2ec903251e496fbae6d38c7442e991d281ebd4",
         "选课攻略/BNBU网站使用介绍20250818.pdf": "de386da7797ea1588632077c9b7df4e6c9cfb8f7e4efeaa369b09016ada504d2"
+    },
+    "total_prepackages": 88,
+    "prepackages": {
+        "Advanced-Financial-Mathematics/Assignments-2025spring": {
+            "hash": "976b96e33c5f9e26bc2900b67bc8aa33fc67bfa2100d6567c7d3870a57f33edd",
+            "zipKey": "_prepacked_976b96e33c5f9e26bc2900b67bc8aa33fc67bfa2100d6567c7d3870a57f33edd.zip",
+            "size": 1014179,
+            "fileCount": 10
+        },
+        "Advanced-Financial-Mathematics/exam-2025spring": {
+            "hash": "6d223b6675f56882060409fa5c5d8b03f26619c370be98083373d23d63c632e3",
+            "zipKey": "_prepacked_6d223b6675f56882060409fa5c5d8b03f26619c370be98083373d23d63c632e3.zip",
+            "size": 207034,
+            "fileCount": 2
+        },
+        "Advanced-Probability/Assignments-25fall": {
+            "hash": "0c248c6b694e753c05c9f431a961617e29cd109159f232b4b6d3ecb7f2febf51",
+            "zipKey": "_prepacked_0c248c6b694e753c05c9f431a961617e29cd109159f232b4b6d3ecb7f2febf51.zip",
+            "size": 4046942,
+            "fileCount": 12
+        },
+        "Advanced-Probability/Quizs-25fall": {
+            "hash": "0060a009e13a1d09f83df0a78bcd95e5b0a13ce88831dd68051098df7a3ac295",
+            "zipKey": "_prepacked_0060a009e13a1d09f83df0a78bcd95e5b0a13ce88831dd68051098df7a3ac295.zip",
+            "size": 1226144,
+            "fileCount": 5
+        },
+        "Applied-Stochastic-Process/Assignments-2024fall": {
+            "hash": "d64795574326b7bb3980f68cfb4de8083ec612b9fb1e35073ae1d5c220e532bb",
+            "zipKey": "_prepacked_d64795574326b7bb3980f68cfb4de8083ec612b9fb1e35073ae1d5c220e532bb.zip",
+            "size": 4939772,
+            "fileCount": 16
+        },
+        "Applied-Stochastic-Process/Notes-24fall": {
+            "hash": "0f1ad50e441d5c20276bcf58b153e52aa2829bf3ce68393944325cb9bd4da581",
+            "zipKey": "_prepacked_0f1ad50e441d5c20276bcf58b153e52aa2829bf3ce68393944325cb9bd4da581.zip",
+            "size": 2282369,
+            "fileCount": 6
+        },
+        "Applied-Stochastic-Process/Quizzes-2024fall": {
+            "hash": "ae8e9b70d7508404b40f86dc21a82cf09efb8f8cff5ede6a23024084dee40404",
+            "zipKey": "_prepacked_ae8e9b70d7508404b40f86dc21a82cf09efb8f8cff5ede6a23024084dee40404.zip",
+            "size": 5814905,
+            "fileCount": 6
+        },
+        "C++-Programming-Language/Assignment-2023fall": {
+            "hash": "c68751d06ef78954151b0e9487523dad6be5cbcd950f994314c64174889d8ab8",
+            "zipKey": "_prepacked_c68751d06ef78954151b0e9487523dad6be5cbcd950f994314c64174889d8ab8.zip",
+            "size": 591068,
+            "fileCount": 7
+        },
+        "C++-Programming-Language/Slides-2023fall": {
+            "hash": "bb6ad2cf24edb4fb48fd31ff0b3ba0ace55f2763978d21bf76f92f281a38826c",
+            "zipKey": "_prepacked_bb6ad2cf24edb4fb48fd31ff0b3ba0ace55f2763978d21bf76f92f281a38826c.zip",
+            "size": 12439766,
+            "fileCount": 10
+        },
+        "Calculus-I/Assignment-24fall": {
+            "hash": "3aa0039baa3485c2b41bcec8144be92f298d29802008a18819617920f864eb48",
+            "zipKey": "_prepacked_3aa0039baa3485c2b41bcec8144be92f298d29802008a18819617920f864eb48.zip",
+            "size": 24037179,
+            "fileCount": 20
+        },
+        "Calculus-I/Assignments-2022fall": {
+            "hash": "ae8adab285ec86b1cd407026bc65459a3e45bb517f1d239fcade66555fc1dd4a",
+            "zipKey": "_prepacked_ae8adab285ec86b1cd407026bc65459a3e45bb517f1d239fcade66555fc1dd4a.zip",
+            "size": 242417,
+            "fileCount": 3
+        },
+        "Calculus-I/Slides-22fall": {
+            "hash": "ade22a4453aea670d17f902747032e0f2e1b97ef040ef5b8ea019b1776eddcf0",
+            "zipKey": "_prepacked_ade22a4453aea670d17f902747032e0f2e1b97ef040ef5b8ea019b1776eddcf0.zip",
+            "size": 43430180,
+            "fileCount": 7
+        },
+        "Calculus-I/Slides-24fall": {
+            "hash": "137a30faecdfa41358d4c3ad99f8700f0ef07d256556aeff35924554cf895baf",
+            "zipKey": "_prepacked_137a30faecdfa41358d4c3ad99f8700f0ef07d256556aeff35924554cf895baf.zip",
+            "size": 14214131,
+            "fileCount": 7
+        },
+        "Calculus-II/assignment-25spring": {
+            "hash": "ffe8067e83b972741784939300e347576e73bf41766c7a8c86113569e38ee727",
+            "zipKey": "_prepacked_ffe8067e83b972741784939300e347576e73bf41766c7a8c86113569e38ee727.zip",
+            "size": 3489965,
+            "fileCount": 22
+        },
+        "Calculus-II/Assignments-2023spring": {
+            "hash": "c18fa56f74ea1d7bbc14e74453da8363adcaed9303645838f27f0370755deac2",
+            "zipKey": "_prepacked_c18fa56f74ea1d7bbc14e74453da8363adcaed9303645838f27f0370755deac2.zip",
+            "size": 10526157,
+            "fileCount": 20
+        },
+        "Calculus-II/Notes-2023spring": {
+            "hash": "c089091eb57287b8982f2fc46802a1ac2c05e239352cd8bfb86ae40535eeaa74",
+            "zipKey": "_prepacked_c089091eb57287b8982f2fc46802a1ac2c05e239352cd8bfb86ae40535eeaa74.zip",
+            "size": 8094115,
+            "fileCount": 12
+        },
+        "Calculus-II/Quiz-25spring": {
+            "hash": "415a32f4cc2ddb6be555ca83cc083b4fe90df3a5ad2c486a403edb52a7e04bde",
+            "zipKey": "_prepacked_415a32f4cc2ddb6be555ca83cc083b4fe90df3a5ad2c486a403edb52a7e04bde.zip",
+            "size": 291825,
+            "fileCount": 2
+        },
+        "Calculus-II/Quizs-and-Exams-2023spring": {
+            "hash": "42a0a2c6e8644226e350d91cb60364b0ee63453980b67e4e58d3c0891d71117a",
+            "zipKey": "_prepacked_42a0a2c6e8644226e350d91cb60364b0ee63453980b67e4e58d3c0891d71117a.zip",
+            "size": 398452,
+            "fileCount": 3
+        },
+        "Calculus-II/Slides-25spring": {
+            "hash": "673df4663e7c4d8d92cc5080d72f9d1d6618c9c597985e03e37575a4b26b1dc8",
+            "zipKey": "_prepacked_673df4663e7c4d8d92cc5080d72f9d1d6618c9c597985e03e37575a4b26b1dc8.zip",
+            "size": 15146761,
+            "fileCount": 6
+        },
+        "Calculus-II/Study-Materials-provided-by-Monica": {
+            "hash": "1988d7c2c3443cc58b6131ba901602b31b96ac09933f25f5254f7415c06a84e9",
+            "zipKey": "_prepacked_1988d7c2c3443cc58b6131ba901602b31b96ac09933f25f5254f7415c06a84e9.zip",
+            "size": 1228720,
+            "fileCount": 2
+        },
+        "Complex-Analysis/Classwork": {
+            "hash": "dbe4406cbe15d8dd32d5d26485e9d8e8d6cd6e8697414f0ae8e056c69f0e6b31",
+            "zipKey": "_prepacked_dbe4406cbe15d8dd32d5d26485e9d8e8d6cd6e8697414f0ae8e056c69f0e6b31.zip",
+            "size": 379293,
+            "fileCount": 10
+        },
+        "Complex-Analysis/Exams": {
+            "hash": "03b05b00cfd7b6412c5a8603978a0c752690084b3b7c88e2c831cb0abb00e5a7",
+            "zipKey": "_prepacked_03b05b00cfd7b6412c5a8603978a0c752690084b3b7c88e2c831cb0abb00e5a7.zip",
+            "size": 361870,
+            "fileCount": 2
+        },
+        "Complex-Analysis/Homework": {
+            "hash": "d8fd726387774cf89c3eaeb7d7b5c24018f8a332a74cd00e29694b8fa016e78d",
+            "zipKey": "_prepacked_d8fd726387774cf89c3eaeb7d7b5c24018f8a332a74cd00e29694b8fa016e78d.zip",
+            "size": 4096293,
+            "fileCount": 16
+        },
+        "Data-Structure/Assignments-24spring": {
+            "hash": "438ec64167b2c11e987a54d90d2741b04e55756eff08f5c3b354c458d79393bb",
+            "zipKey": "_prepacked_438ec64167b2c11e987a54d90d2741b04e55756eff08f5c3b354c458d79393bb.zip",
+            "size": 637294,
+            "fileCount": 10
+        },
+        "Data-Structure/Slides-24spring": {
+            "hash": "a26e2b51a446365fba95b792e84a24dde658451ffc2ccc878c96de5cb81af9b2",
+            "zipKey": "_prepacked_a26e2b51a446365fba95b792e84a24dde658451ffc2ccc878c96de5cb81af9b2.zip",
+            "size": 8471061,
+            "fileCount": 14
+        },
+        "Financial-Mathematics/Homework-2024fall": {
+            "hash": "72119fe1dabcc108cd8836614e71c3ca1f79835a7571807e6bae1a840c66bf7f",
+            "zipKey": "_prepacked_72119fe1dabcc108cd8836614e71c3ca1f79835a7571807e6bae1a840c66bf7f.zip",
+            "size": 4383405,
+            "fileCount": 10
+        },
+        "Financial-Mathematics/notes-2024fall": {
+            "hash": "d2ad50547857c15c2be209a9a1202df9cab316e8e11ebda794078f071d3588ce",
+            "zipKey": "_prepacked_d2ad50547857c15c2be209a9a1202df9cab316e8e11ebda794078f071d3588ce.zip",
+            "size": 4990880,
+            "fileCount": 5
+        },
+        "Financial-Mathematics/quizzes-2024fall": {
+            "hash": "90cc8265ab271887feac4b2f20bcb98426b8612530355070d589c0adc856fc68",
+            "zipKey": "_prepacked_90cc8265ab271887feac4b2f20bcb98426b8612530355070d589c0adc856fc68.zip",
+            "size": 3563132,
+            "fileCount": 4
+        },
+        "Financial-Mathematics/Wong's-classwork-2024fall": {
+            "hash": "798136508af2d1eb3e8e98fababc320c3e452b4b20206b978253cf9578202da1",
+            "zipKey": "_prepacked_798136508af2d1eb3e8e98fababc320c3e452b4b20206b978253cf9578202da1.zip",
+            "size": 73101,
+            "fileCount": 4
+        },
+        "Financial-Mathematics/Wong's-homework-2024fall": {
+            "hash": "8056e8b792b791e90033f909ca1a8b9eecf69630fa4e9183a45cd94114a588e6",
+            "zipKey": "_prepacked_8056e8b792b791e90033f909ca1a8b9eecf69630fa4e9183a45cd94114a588e6.zip",
+            "size": 1050940,
+            "fileCount": 3
+        },
+        "Introdction-to-Finance/Exercises-2023fall": {
+            "hash": "f3ddd6fae34b3b2c341ca1f91af26c570ee799cbd880c9500565ee06274c9387",
+            "zipKey": "_prepacked_f3ddd6fae34b3b2c341ca1f91af26c570ee799cbd880c9500565ee06274c9387.zip",
+            "size": 408522,
+            "fileCount": 18
+        },
+        "Introdction-to-Finance/Slides-2023fall": {
+            "hash": "9a58d9dbfb058aacb460ce7367758065e70b48c45eae7300d01320aa21644b42",
+            "zipKey": "_prepacked_9a58d9dbfb058aacb460ce7367758065e70b48c45eae7300d01320aa21644b42.zip",
+            "size": 4347083,
+            "fileCount": 10
+        },
+        "Introduction-to-Econometrics/Exercise-2024fall": {
+            "hash": "d0c2a2dbee43db09c7d775006ad8fe2f4357fb8b68ddb4f01b6e6abd54200d1a",
+            "zipKey": "_prepacked_d0c2a2dbee43db09c7d775006ad8fe2f4357fb8b68ddb4f01b6e6abd54200d1a.zip",
+            "size": 5362034,
+            "fileCount": 72
+        },
+        "Introduction-to-Econometrics/Quizzes-2024fall": {
+            "hash": "afe2cf1464a09e9170b24bee717fc184203b222600be9bc713651f509c079fa3",
+            "zipKey": "_prepacked_afe2cf1464a09e9170b24bee717fc184203b222600be9bc713651f509c079fa3.zip",
+            "size": 1381112,
+            "fileCount": 6
+        },
+        "Introduction-to-Econometrics/Slides-24fall": {
+            "hash": "a788ac63ff6a365ccbd4f8a069ddc9bdfa6cb83b24f09b5785aaf4d26b9440d5",
+            "zipKey": "_prepacked_a788ac63ff6a365ccbd4f8a069ddc9bdfa6cb83b24f09b5785aaf4d26b9440d5.zip",
+            "size": 6824348,
+            "fileCount": 10
+        },
+        "Introduction-to-Financial-Derivatives/Exercises": {
+            "hash": "9cb0846fb80266be842e99288bad1b9fb74b2c86a964191521b686e0c3dd213d",
+            "zipKey": "_prepacked_9cb0846fb80266be842e99288bad1b9fb74b2c86a964191521b686e0c3dd213d.zip",
+            "size": 4111911,
+            "fileCount": 36
+        },
+        "Introduction-to-Financial-Derivatives/Quizzes-25spring": {
+            "hash": "238049f7908e9c9d4becda4e2a563e99c52bfd85f0d035ba1a077c6e3a6cae20",
+            "zipKey": "_prepacked_238049f7908e9c9d4becda4e2a563e99c52bfd85f0d035ba1a077c6e3a6cae20.zip",
+            "size": 1037512,
+            "fileCount": 4
+        },
+        "Introduction-to-Financial-Derivatives/Slides": {
+            "hash": "ecda0dfb4e0fdf49980b386a21af73cd7519c6c611149a03c9d3998904fe3e8c",
+            "zipKey": "_prepacked_ecda0dfb4e0fdf49980b386a21af73cd7519c6c611149a03c9d3998904fe3e8c.zip",
+            "size": 2005413,
+            "fileCount": 9
+        },
+        "Investment-Practice/Assignments-25fall": {
+            "hash": "8b877d63753616b9c412e1787261aabd3dcd85d968cd0a35a1daf5d5971cb815",
+            "zipKey": "_prepacked_8b877d63753616b9c412e1787261aabd3dcd85d968cd0a35a1daf5d5971cb815.zip",
+            "size": 7049970,
+            "fileCount": 52
+        },
+        "Investment-Practice/Notes-25fall": {
+            "hash": "59565b319835d9fe4a1b08f355038d742136190dccfd05968dd8a6dea4c816c0",
+            "zipKey": "_prepacked_59565b319835d9fe4a1b08f355038d742136190dccfd05968dd8a6dea4c816c0.zip",
+            "size": 56417205,
+            "fileCount": 73
+        },
+        "Investments/Exercises-2024fall": {
+            "hash": "feb309acbd6ff250553a1f598d616f2829cba64becfdbd1dd3d33f3d7fb8f169",
+            "zipKey": "_prepacked_feb309acbd6ff250553a1f598d616f2829cba64becfdbd1dd3d33f3d7fb8f169.zip",
+            "size": 2049250,
+            "fileCount": 14
+        },
+        "Investments/Quizs-2024fall": {
+            "hash": "dd5316a7a145910aed2e44291560d41e4dbe55e172fe26ae7835fe8a6231a041",
+            "zipKey": "_prepacked_dd5316a7a145910aed2e44291560d41e4dbe55e172fe26ae7835fe8a6231a041.zip",
+            "size": 553089,
+            "fileCount": 4
+        },
+        "Investments/Slides-24fall": {
+            "hash": "ea1420f4201374832fcf420cfca2f25e9570ca4b38f31063e42767ca0c03d726",
+            "zipKey": "_prepacked_ea1420f4201374832fcf420cfca2f25e9570ca4b38f31063e42767ca0c03d726.zip",
+            "size": 8904061,
+            "fileCount": 17
+        },
+        "Linear-Algebra-I/Homework-22fall": {
+            "hash": "47b6b21512ddcb10276b0e914f45db5b8318b31ebfa4d51d5df97aa19ed79171",
+            "zipKey": "_prepacked_47b6b21512ddcb10276b0e914f45db5b8318b31ebfa4d51d5df97aa19ed79171.zip",
+            "size": 1311066,
+            "fileCount": 11
+        },
+        "Linear-Algebra-I/Homework-24fall": {
+            "hash": "326892c9f5a190cc87354706bb122cf717f8d5223e12db9be5b838d69ed884a7",
+            "zipKey": "_prepacked_326892c9f5a190cc87354706bb122cf717f8d5223e12db9be5b838d69ed884a7.zip",
+            "size": 1196605,
+            "fileCount": 10
+        },
+        "Linear-Algebra-I/Lecture-Slides-22fall": {
+            "hash": "31f8b5eb6155975f5b67e9d77371c29fa0bc3692ead016a0392ee19c8344c0ef",
+            "zipKey": "_prepacked_31f8b5eb6155975f5b67e9d77371c29fa0bc3692ead016a0392ee19c8344c0ef.zip",
+            "size": 2387027,
+            "fileCount": 17
+        },
+        "Linear-Algebra-I/Lecture-Slides-24fall": {
+            "hash": "e64e7daad5ddaef4a803b2e23414fd5d4464188161ba115cf9d5b40499661460",
+            "zipKey": "_prepacked_e64e7daad5ddaef4a803b2e23414fd5d4464188161ba115cf9d5b40499661460.zip",
+            "size": 42930823,
+            "fileCount": 4
+        },
+        "Linear-Algebra-II/assignment-25spring": {
+            "hash": "ff829afd21bdbddc1ac882712e4f123f5c72e80da97de0fef316503da20785fa",
+            "zipKey": "_prepacked_ff829afd21bdbddc1ac882712e4f123f5c72e80da97de0fef316503da20785fa.zip",
+            "size": 4145283,
+            "fileCount": 14
+        },
+        "Linear-Algebra-II/Homework-2023spring": {
+            "hash": "2741d640e4bf88bd152056027d30d7d5bb140c25f5f1c4dabf213a5358e1f4b0",
+            "zipKey": "_prepacked_2741d640e4bf88bd152056027d30d7d5bb140c25f5f1c4dabf213a5358e1f4b0.zip",
+            "size": 6320022,
+            "fileCount": 18
+        },
+        "Linear-Algebra-II/Notes-2023spring": {
+            "hash": "c456a82a3bd0e9b7701bba10ac4419c3e90438f23f60a455c8a40c7b0f0df15f",
+            "zipKey": "_prepacked_c456a82a3bd0e9b7701bba10ac4419c3e90438f23f60a455c8a40c7b0f0df15f.zip",
+            "size": 195201375,
+            "fileCount": 18
+        },
+        "Linear-Algebra-II/Quiz-25spring": {
+            "hash": "748b299f179f150aefb015047b5a8c466b2a5fddbe514f422a3c255f0dc3a7ec",
+            "zipKey": "_prepacked_748b299f179f150aefb015047b5a8c466b2a5fddbe514f422a3c255f0dc3a7ec.zip",
+            "size": 316134,
+            "fileCount": 1
+        },
+        "Linear-Algebra-II/Quizs-&-Exams-2023spring": {
+            "hash": "fce2301b8cd9d6f5aaed24f8f36f6d5ee3745e5008c6a5fad7b2a59b7be70035",
+            "zipKey": "_prepacked_fce2301b8cd9d6f5aaed24f8f36f6d5ee3745e5008c6a5fad7b2a59b7be70035.zip",
+            "size": 3364164,
+            "fileCount": 3
+        },
+        "Macroeconomics/Exams-25spring": {
+            "hash": "d76d42ce4c325de8d8621c0c8e91d643dee043a9e7a33076f81b50cec97ab80f",
+            "zipKey": "_prepacked_d76d42ce4c325de8d8621c0c8e91d643dee043a9e7a33076f81b50cec97ab80f.zip",
+            "size": 27886430,
+            "fileCount": 10
+        },
+        "Macroeconomics/Exercise-2025spring": {
+            "hash": "f5a7531061a0d357547f930616214acef0bedd2a0c729a95a87590863a47f417",
+            "zipKey": "_prepacked_f5a7531061a0d357547f930616214acef0bedd2a0c729a95a87590863a47f417.zip",
+            "size": 2625196,
+            "fileCount": 22
+        },
+        "Macroeconomics/notes": {
+            "hash": "acae3930ad3593e796f2754086a9c669242202fa2a8cc868deaa7361d68a8155",
+            "zipKey": "_prepacked_acae3930ad3593e796f2754086a9c669242202fa2a8cc868deaa7361d68a8155.zip",
+            "size": 6535443,
+            "fileCount": 12
+        },
+        "Mathematical-Statistics/Homework-2024spring": {
+            "hash": "e56875912327d126db153901e6784fca3e9acce9881340fc0cf775c3aa483aee",
+            "zipKey": "_prepacked_e56875912327d126db153901e6784fca3e9acce9881340fc0cf775c3aa483aee.zip",
+            "size": 2035708,
+            "fileCount": 16
+        },
+        "Mathematical-Statistics/Notes-24spring": {
+            "hash": "1a15b883e50c87a3045e6a92e5862c3ab5ce97449d7c70dcf5f7bcb312470be7",
+            "zipKey": "_prepacked_1a15b883e50c87a3045e6a92e5862c3ab5ce97449d7c70dcf5f7bcb312470be7.zip",
+            "size": 8902707,
+            "fileCount": 6
+        },
+        "Mathematical-Statistics/quizs-2024spring": {
+            "hash": "2415c098ed4caee9fd20e50d5731970e89c1d31e9e7884c4245ce6c290abfdbe",
+            "zipKey": "_prepacked_2415c098ed4caee9fd20e50d5731970e89c1d31e9e7884c4245ce6c290abfdbe.zip",
+            "size": 238665,
+            "fileCount": 2
+        },
+        "Mathematical-Statistics/Weekly-notes-by-Wei-Zhang-2024spring": {
+            "hash": "7fc6924b4b54bf8a71ede3f4032a412f1cac685f0418df1138734f926d1635d9",
+            "zipKey": "_prepacked_7fc6924b4b54bf8a71ede3f4032a412f1cac685f0418df1138734f926d1635d9.zip",
+            "size": 35048072,
+            "fileCount": 7
+        },
+        "Microeconomics/Exercises-2024fall": {
+            "hash": "de7e704e88c6d069622acbbcb48fd468874fecba6571e6f38ae26b74924070ae",
+            "zipKey": "_prepacked_de7e704e88c6d069622acbbcb48fd468874fecba6571e6f38ae26b74924070ae.zip",
+            "size": 4545630,
+            "fileCount": 20
+        },
+        "Microeconomics/notes-2024fall": {
+            "hash": "3abfcf8dff3af5479bce7be6032c87f9dc301ba6423762d2b3b846c1fc34ab20",
+            "zipKey": "_prepacked_3abfcf8dff3af5479bce7be6032c87f9dc301ba6423762d2b3b846c1fc34ab20.zip",
+            "size": 1147478,
+            "fileCount": 5
+        },
+        "Microeconomics/Sherry's-notes-2024fall": {
+            "hash": "b01e67b0cdc349e61f7176d60bacc03bc266504b1b24af02eca82412b443944f",
+            "zipKey": "_prepacked_b01e67b0cdc349e61f7176d60bacc03bc266504b1b24af02eca82412b443944f.zip",
+            "size": 13784982,
+            "fileCount": 10
+        },
+        "Numerical-Analysis/Homework": {
+            "hash": "6ae6598076a9e70e161084d042010d09d3fec311dd6a2335cc53d8424f05fae6",
+            "zipKey": "_prepacked_6ae6598076a9e70e161084d042010d09d3fec311dd6a2335cc53d8424f05fae6.zip",
+            "size": 8679152,
+            "fileCount": 19
+        },
+        "Numerical-Analysis/InClass": {
+            "hash": "c9b0dfa349b12017e0d813d503d45f6dd6bf4b6f535c10e8ee6381b1783d2ee9",
+            "zipKey": "_prepacked_c9b0dfa349b12017e0d813d503d45f6dd6bf4b6f535c10e8ee6381b1783d2ee9.zip",
+            "size": 1251999,
+            "fileCount": 10
+        },
+        "Numerical-Analysis/notes": {
+            "hash": "4d1909946a6735fb87a2749c7e8c22ce8423de475a23fc7aac03e45200931927",
+            "zipKey": "_prepacked_4d1909946a6735fb87a2749c7e8c22ce8423de475a23fc7aac03e45200931927.zip",
+            "size": 2940551,
+            "fileCount": 8
+        },
+        "Numerical-and-Simulation-Techniques-in-Finance/Assignment-25fall": {
+            "hash": "691daf05579709c6a496feced92c5e26b28be6c4bc1429c078b7d060d76b1483",
+            "zipKey": "_prepacked_691daf05579709c6a496feced92c5e26b28be6c4bc1429c078b7d060d76b1483.zip",
+            "size": 2638301,
+            "fileCount": 6
+        },
+        "Numerical-and-Simulation-Techniques-in-Finance/Notes-25fall": {
+            "hash": "562faa2297a54c47b5faa8ab4d58395cd0135f38144f914e8fc065a0b8d3448f",
+            "zipKey": "_prepacked_562faa2297a54c47b5faa8ab4d58395cd0135f38144f914e8fc065a0b8d3448f.zip",
+            "size": 40218732,
+            "fileCount": 8
+        },
+        "Numerical-and-Simulation-Techniques-in-Finance/textbooks-25fall": {
+            "hash": "b416ade1db84b0b00c022aafaf79bca80327eac10de091dd56e94a982a6ba8c1",
+            "zipKey": "_prepacked_b416ade1db84b0b00c022aafaf79bca80327eac10de091dd56e94a982a6ba8c1.zip",
+            "size": 38955994,
+            "fileCount": 4
+        },
+        "Optimization/Homework-25spring": {
+            "hash": "d668befe6c8174ef204044d483d920de46bb06ad90d783452cf0f607a129febe",
+            "zipKey": "_prepacked_d668befe6c8174ef204044d483d920de46bb06ad90d783452cf0f607a129febe.zip",
+            "size": 492249,
+            "fileCount": 12
+        },
+        "Optimization/Quiz-25spring": {
+            "hash": "b93ae5cbc8994bdf83da9491f399394ffeb463d08cb12b441dbad7fcdec582b9",
+            "zipKey": "_prepacked_b93ae5cbc8994bdf83da9491f399394ffeb463d08cb12b441dbad7fcdec582b9.zip",
+            "size": 567660,
+            "fileCount": 2
+        },
+        "Optimization/Slides": {
+            "hash": "69ca8fa5859707aa9bfd44fa9bf469da6882e43f17a182e73d729c5467bc001d",
+            "zipKey": "_prepacked_69ca8fa5859707aa9bfd44fa9bf469da6882e43f17a182e73d729c5467bc001d.zip",
+            "size": 2720727,
+            "fileCount": 10
+        },
+        "Ordinary-Differential-Equations/Assignment": {
+            "hash": "70ade8b0121d95227d4288b340fcf6109d3d8bf964dfbfad7ddef5f91e02fedd",
+            "zipKey": "_prepacked_70ade8b0121d95227d4288b340fcf6109d3d8bf964dfbfad7ddef5f91e02fedd.zip",
+            "size": 5108182,
+            "fileCount": 20
+        },
+        "Ordinary-Differential-Equations/Supplementary-Materials": {
+            "hash": "ff1870a92f8845342868a4ea47b30d8767520d0a206b72f3b09525acdb5f5467",
+            "zipKey": "_prepacked_ff1870a92f8845342868a4ea47b30d8767520d0a206b72f3b09525acdb5f5467.zip",
+            "size": 13522329,
+            "fileCount": 7
+        },
+        "Partial-Differential-Equations/Assignments": {
+            "hash": "80cd109f9737abdaa59620c302eb1792187e509eb8c2bdf022ecff42300f9f62",
+            "zipKey": "_prepacked_80cd109f9737abdaa59620c302eb1792187e509eb8c2bdf022ecff42300f9f62.zip",
+            "size": 8649710,
+            "fileCount": 12
+        },
+        "Partial-Differential-Equations/Lecture-Notes": {
+            "hash": "cf64d9accccbb0b76a3a677db5232bbc7578f39df39d4ca508cc27ad11595f58",
+            "zipKey": "_prepacked_cf64d9accccbb0b76a3a677db5232bbc7578f39df39d4ca508cc27ad11595f58.zip",
+            "size": 940978,
+            "fileCount": 4
+        },
+        "Partial-Differential-Equations/Tests": {
+            "hash": "93ad7d81cc961f75ef1a3d929a25d14b924fb19fdf1fd320287c324e5e423126",
+            "zipKey": "_prepacked_93ad7d81cc961f75ef1a3d929a25d14b924fb19fdf1fd320287c324e5e423126.zip",
+            "size": 208223,
+            "fileCount": 2
+        },
+        "Principles-of-Accounting-I/Assignment-2023spring": {
+            "hash": "18c3983d23b18993d2102f0ff91de530794fe4303faaa68b3bd4339d068cf7f5",
+            "zipKey": "_prepacked_18c3983d23b18993d2102f0ff91de530794fe4303faaa68b3bd4339d068cf7f5.zip",
+            "size": 552111,
+            "fileCount": 6
+        },
+        "Principles-of-Accounting-I/Slides-2023spring": {
+            "hash": "6e9c307c908ce7f48fcc18583fbc60f0c37e6630495019a1e2bbda327f655728",
+            "zipKey": "_prepacked_6e9c307c908ce7f48fcc18583fbc60f0c37e6630495019a1e2bbda327f655728.zip",
+            "size": 20017216,
+            "fileCount": 10
+        },
+        "Probability-Theory/Assignment-23fall": {
+            "hash": "d2a58863b4a7e6dc236687e22c374833b72d1baacff4501cf90e0dab57b34027",
+            "zipKey": "_prepacked_d2a58863b4a7e6dc236687e22c374833b72d1baacff4501cf90e0dab57b34027.zip",
+            "size": 5865116,
+            "fileCount": 26
+        },
+        "Probability-Theory/Notes-and-Slides-23fall": {
+            "hash": "efad287d73a12838e65cce6defe2b7b435aba092a3fd4845f73312479ef564bf",
+            "zipKey": "_prepacked_efad287d73a12838e65cce6defe2b7b435aba092a3fd4845f73312479ef564bf.zip",
+            "size": 9304914,
+            "fileCount": 7
+        },
+        "Risk-Management-in-Finance/Assignment-2025spring": {
+            "hash": "3542f2cdb3dada3283a2ef80a5566408a54ff3bf4e4db852caf2b416f9511a6c",
+            "zipKey": "_prepacked_3542f2cdb3dada3283a2ef80a5566408a54ff3bf4e4db852caf2b416f9511a6c.zip",
+            "size": 2807591,
+            "fileCount": 15
+        },
+        "Risk-Management-in-Finance/Project-25spring": {
+            "hash": "878a4ba858954c383f56765b348b7d2e6f73febe93289302b3188c9f4d6d3ab6",
+            "zipKey": "_prepacked_878a4ba858954c383f56765b348b7d2e6f73febe93289302b3188c9f4d6d3ab6.zip",
+            "size": 257302,
+            "fileCount": 2
+        },
+        "Risk-Management-in-Finance/Slides-25spring": {
+            "hash": "b19798dc016dd66500f8c23e628379bad88d57f3a8c01d6ddb103c7af2e9807e",
+            "zipKey": "_prepacked_b19798dc016dd66500f8c23e628379bad88d57f3a8c01d6ddb103c7af2e9807e.zip",
+            "size": 12210929,
+            "fileCount": 7
+        },
+        "Time-Series-for-Finance-and-Macroeconomics/Exercise-2025spring": {
+            "hash": "ec0debebb70a52bd1473beb9aa4f0908405374f115b9c76e1c7bc69efccd9190",
+            "zipKey": "_prepacked_ec0debebb70a52bd1473beb9aa4f0908405374f115b9c76e1c7bc69efccd9190.zip",
+            "size": 7336043,
+            "fileCount": 17
+        },
+        "Time-Series-for-Finance-and-Macroeconomics/Quizzes-2025spring": {
+            "hash": "14942044420d2316df32b8209ef05084bc4ccea81a6d438eee4a79c26acdab62",
+            "zipKey": "_prepacked_14942044420d2316df32b8209ef05084bc4ccea81a6d438eee4a79c26acdab62.zip",
+            "size": 676596,
+            "fileCount": 5
+        },
+        "Time-Series-for-Finance-and-Macroeconomics/Slides-25spring": {
+            "hash": "3c38585a8af55b01e4ebdea16e3525ed02812797497d912d2f01b3abd34a049a",
+            "zipKey": "_prepacked_3c38585a8af55b01e4ebdea16e3525ed02812797497d912d2f01b3abd34a049a.zip",
+            "size": 17401482,
+            "fileCount": 13
+        },
+        "Vector-Calculus-and-Complex-Analysis/Homework-25spring": {
+            "hash": "5ba3ba48a2034f31b382d40cdc60e3f90ded5394083231f8af781713cf39fff6",
+            "zipKey": "_prepacked_5ba3ba48a2034f31b382d40cdc60e3f90ded5394083231f8af781713cf39fff6.zip",
+            "size": 5244350,
+            "fileCount": 24
+        },
+        "Vector-Calculus-and-Complex-Analysis/Quizzes-25spring": {
+            "hash": "2cc49205829a4bb40625b7b3c52a1a9398f96a475e67c210957eb22fa6360559",
+            "zipKey": "_prepacked_2cc49205829a4bb40625b7b3c52a1a9398f96a475e67c210957eb22fa6360559.zip",
+            "size": 401327,
+            "fileCount": 2
+        }
     }
 }
