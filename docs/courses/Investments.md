@@ -12,34 +12,13 @@ editLink: false
 ::: tip 下载说明
 - 点击文件旁边的 **"下载"** 按钮下载单个文件
 - 点击文件夹旁边的 **"下载文件夹"** 按钮下载整个文件夹（ZIP格式）
+- CloudFlare 的云服务在国内可能访问不畅，建议搭配科学上网食用本项目
 :::
 
 <script setup>
 import { reactive, onMounted } from 'vue'
 
 const treeData = reactive([
-  {
-    "name": ".wrangler",
-    "type": "directory",
-    "isOpen": false,
-    "children": [
-      {
-        "name": "cache",
-        "type": "directory",
-        "isOpen": false,
-        "children": [
-          {
-            "name": "wrangler-account.json",
-            "type": "file",
-            "downloadUrl": "https://course-sharing-download.fm-course.workers.dev/download/Investments/.wrangler/cache/wrangler-account.json",
-            "downloadText": "下载 wrangler-account.json"
-          }
-        ],
-        "downloadUrl": "https://course-sharing-download.fm-course.workers.dev/download/Investments/.wrangler/cache/",
-        "downloadText": "下载整个 cache 文件夹 (ZIP格式)"
-      }
-    ]
-  },
   {
     "name": "Exercises-2024fall",
     "type": "directory",

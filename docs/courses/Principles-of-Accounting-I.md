@@ -12,6 +12,7 @@ editLink: false
 ::: tip 下载说明
 - 点击文件旁边的 **"下载"** 按钮下载单个文件
 - 点击文件夹旁边的 **"下载文件夹"** 按钮下载整个文件夹（ZIP格式）
+- CloudFlare 的云服务在国内可能访问不畅，建议搭配科学上网食用本项目
 :::
 
 <script setup>
@@ -92,7 +93,9 @@ const treeData = reactive([
         "downloadUrl": "https://course-sharing-download.fm-course.workers.dev/download/Principles-of-Accounting-I/Assignment-2023spring/Assignment-3/",
         "downloadText": "下载整个 Assignment-3 文件夹 (ZIP格式)"
       }
-    ]
+    ],
+    "downloadUrl": "https://course-sharing-download.fm-course.workers.dev/download/Principles-of-Accounting-I/Assignment-2023spring/",
+    "downloadText": "下载整个 Assignment-2023spring 文件夹 (ZIP格式)"
   },
   {
     "name": "Slides-2023spring",

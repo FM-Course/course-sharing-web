@@ -18,7 +18,7 @@
 - **[Financial Mathematics](../courses/Financial-Mathematics.md)** - FINM3143 (27 个文件)
 - **[Applied Stochastic Process](../courses/Applied-Stochastic-Process.md)** - MATH3173 (28 个文件)
 - **[Introduction to Econometrics](../courses/Introduction-to-Econometrics.md)** - FINM3123 (89 个文件)
-- **[Investments](../courses/Investments.md)** - FINM3093 (37 个文件)
+- **[Investments](../courses/Investments.md)** - FINM3093 (36 个文件)
 - **[Microeconomics](../courses/Microeconomics.md)** - ECON2103 (41 个文件)
 - **[Advanced Financial Mathematics](../courses/Advanced-Financial-Mathematics.md)** - FINM4073 (13 个文件)
 - **[Risk Management in Finance](../courses/Risk-Management-in-Finance.md)** - FINM3033 (24 个文件)

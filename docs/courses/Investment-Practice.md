@@ -16,6 +16,7 @@ editLink: false
 ::: tip 下载说明
 - 点击文件旁边的 **"下载"** 按钮下载单个文件
 - 点击文件夹旁边的 **"下载文件夹"** 按钮下载整个文件夹（ZIP格式）
+- CloudFlare 的云服务在国内可能访问不畅，建议搭配科学上网食用本项目
 :::
 
 <script setup>
@@ -528,7 +529,9 @@ const treeData = reactive([
         "downloadUrl": "https://course-sharing-download.fm-course.workers.dev/download/Investment-Practice/Assignments-25fall/Lab-7-Efficient-Frontier/",
         "downloadText": "下载整个 Lab-7-Efficient-Frontier 文件夹 (ZIP格式)"
       }
-    ]
+    ],
+    "downloadUrl": "https://course-sharing-download.fm-course.workers.dev/download/Investment-Practice/Assignments-25fall/",
+    "downloadText": "下载整个 Assignments-25fall 文件夹 (ZIP格式)"
   },
   {
     "name": "Notes-25fall",
@@ -1090,7 +1093,9 @@ const treeData = reactive([
         "downloadUrl": "https://course-sharing-download.fm-course.workers.dev/download/Investment-Practice/Notes-25fall/7-Risk2_-Portfolio-Risk/",
         "downloadText": "下载整个 7-Risk2_-Portfolio-Risk 文件夹 (ZIP格式)"
       }
-    ]
+    ],
+    "downloadUrl": "https://course-sharing-download.fm-course.workers.dev/download/Investment-Practice/Notes-25fall/",
+    "downloadText": "下载整个 Notes-25fall 文件夹 (ZIP格式)"
   }
 ])
 

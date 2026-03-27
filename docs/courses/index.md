@@ -18,7 +18,7 @@
 | [Financial Mathematics](Financial-Mathematics.md) | FINM3143 | Major Require | 27 |
 | [Applied Stochastic Process](Applied-Stochastic-Process.md) | MATH3173 | Major Require | 28 |
 | [Introduction to Econometrics](Introduction-to-Econometrics.md) | FINM3123 | Major Require | 89 |
-| [Investments](Investments.md) | FINM3093 | Major Require | 37 |
+| [Investments](Investments.md) | FINM3093 | Major Require | 36 |
 | [Microeconomics](Microeconomics.md) | ECON2103 | Major Require | 41 |
 | [Advanced Financial Mathematics](Advanced-Financial-Mathematics.md) | FINM4073 | Major Require | 13 |
 | [Risk Management in Finance](Risk-Management-in-Finance.md) | FINM3033 | Major Require | 24 |
