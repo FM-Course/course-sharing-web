@@ -5,6 +5,7 @@ on:
     branches: [main]
     paths:
       - 'docs/.vitepress/public/manifest.json'
+  workflow_dispatch:
 
 jobs:
   refresh:
